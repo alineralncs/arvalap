@@ -5,5 +5,5 @@ import ReversedText from '../components/ReversedText.vue'
 <template>
   <main>
     <ReversedText />
-  </main>
+  </main> 
 </template>

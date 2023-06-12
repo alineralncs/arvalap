@@ -6,11 +6,11 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <header>
     
-<nav class="flex items-center m-10 justify-between py-4">
+<nav class="flex items-center justify-between py-4  rounded " >
   <div class="flex items-center">
     <div class="mx-auto content-center">
       <RouterLink to="/">
-        <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+        <img alt="Vue logo" class="logo m-2" src="@/assets/logo.svg" width="125" height="125" />
       </RouterLink>
     </div>
   </div>
@@ -22,6 +22,6 @@ import { RouterLink, RouterView } from 'vue-router'
 
   </header>
 
-  <RouterView />
+
 
 </template>
