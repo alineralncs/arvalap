@@ -1,11 +1,5 @@
-<script>
-import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
-
-    <header>
-    
+<header>    
 <nav class="flex items-center justify-between py-4  rounded " >
   <div class="flex items-center">
     <div class="mx-auto content-center">
@@ -15,13 +9,12 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </div>
   <div class="ml-auto">
-    <RouterLink to="/about" class="mr-4 font-gilroy">Sobre</RouterLink>
+    <RouterLink to="/about" class="mr-4 font-sans font-bold">Te amo</RouterLink>
   </div>
 </nav>
-
-
   </header>
-
-
-
 </template>
+
+<script>
+import { RouterLink, RouterView } from 'vue-router'
+</script>
